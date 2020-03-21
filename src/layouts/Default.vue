@@ -66,12 +66,16 @@ header, footer {
   }
 }
 
+nav ul {
+  margin: 0;
+}
 nav li {
   display:inline-block;
   font-size: 100%;
 }
 nav li:before {
   content: "~";
+  margin: 0;
   margin-right: var(--spacer);
   margin-left: calc(var(--spacer)*2)
 }

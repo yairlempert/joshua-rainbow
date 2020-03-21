@@ -47,3 +47,19 @@ a {
 a:visited {
     color:var(--alt-colour);
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~ ul, ol, li ~~~~~~~~~~~~~~~~~~~~ */
+
+ul {
+    list-style-type: circle;
+}
+ol {
+    list-style-type: decimal;
+}
+ul, ol {
+    margin-bottom: var(--spacer);
+    margin-left: calc(var(--spacer) * 4);
+}
+ul li, ol li {
+    margin-top: var(--spacer);
+}
