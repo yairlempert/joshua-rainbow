@@ -15,7 +15,16 @@ module.exports = {
         typeName: 'Photography',
         route: '/photography/:category/:title',
       }
-    }    
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: '**/guide.md',
+        baseDir: './content/darkroom/',
+        typeName: 'Darkroom',
+        route: '/darkroom/:title',
+      }
+    }
   ],
   transformers: {
     remark: {

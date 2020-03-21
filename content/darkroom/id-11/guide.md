@@ -169,52 +169,52 @@ If something's gone wrong, and it's not listed here, contact the darkroom office
 
 
 
-- **Drying Marks**
+- **Drying Marks**: 
   Drying marks can be removed using countless methods. Isopropyl alcohol and a microfiber cloth works for me, but you can find countless other solutions online. Just be careful if the marks are on the emulsion (matt) side of the film as if you scratch this, you're scratching your image off the film! The glossy side is more robust but while there exist solutions to fix scratches on this side, it's best not to scratch it at all in the first place, so still be gentle.
 
 
 
-- **Purple Negatives** 
+- **Purple Negatives**: 
   This can be caused by inadequate washing or under fixing. First try running the film under the tap for a further three minutes. If this doesn't work, try fixing and then washing the film again. If the film is still purple, contact the darkroom officer at shefuniphotosoc@gmail.com.
 
 
 
-- **Orange Negatives**
+- **Orange Negatives**: 
   Your film was supposed to be processed in C-41 chemistry.
 
 
 
-- **Film Has Trails Of Lesser Density Trailing From The Sprocket Holes**
+- **Film Has Trails Of Lesser Density Trailing From The Sprocket Holes**: 
   This is called bromide drag. It is caused by insufficient agitation during development.
 
 
 
-- **Film Has Denser Areas Around/Trailing From The Sprocket Holes**
+- **Film Has Denser Areas Around/Trailing From The Sprocket Holes**: 
   These are called surge marks. They are caused by over agitation during development.
 
 
 
-- **Film Is Entirely Dense (Black)**
+- **Film Is Entirely Dense (Black)**: 
   This will happen in normal use to the leader of the film, as it will be exposed to light before the camera is loaded. If it occurs across the whole film, or in midsections, a severe light leak has occurred (perhaps by opening the camera back mid-roll). You might also have developed your film under an unsuitable safelight. Panchromatic films are generally not developed under a safelight.
 
 
 
-- **Film Has Strange Dense Marks**
+- **Film Has Strange Dense Marks**: 
   These may be light leaks. It may be possible to determine how the light leak happened by the geometry of the light leaks. For example, if it looks like the film has been marked with a shadow of itself it was likely fogged while it was being loaded into the development tank. If the light leaks are repetitive, align with frames, or emanate from the edges of the film (not the sprockets), it may be a light leak in your camera.
 
 
 
-- **Film Is Greyish, But There Are Images**
+- **Film Is Greyish, But There Are Images**: 
   Your film was likely fogged, although some films have a high base+fog than others, so a grey base colour may be normal. This is typical with expired films.
 
 
 
-- **Film Is Clear, But Has Edge Markings**
+- **Film Is Clear, But Has Edge Markings**: 
   The edge markings are indicative of the fact that the film was developed properly. The film was simply not adequately exposed, if at all.
 
 
 
-- **Film Is Clear And Has No Edge Markings**
+- **Film Is Clear And Has No Edge Markings**: 
   This will occur if the film is fixed before it is developed.
 
 
