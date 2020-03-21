@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <g-image alt="Example image" src="~/assets/img/contact.jpg" immediate="true"/>
+    <g-image alt="A photograph of Josh" src="~/assets/img/contact.jpg" immediate="true"/>
     <ul>
       <li>Email: <a href="joshua.r.osullivan@gmail.com">joshua.r.osullivan@gmail.com</a></li>
       <li>Github: <a href="https://github.com/TheTeaCat/joshua-rainbow">github.com/TheTeaCat</a></li>
