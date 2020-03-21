@@ -62,7 +62,7 @@ header, footer {
     align-self:stretch;
   }
   footer {
-    text-align: center;
+    text-align: right;
   }
 }
 
