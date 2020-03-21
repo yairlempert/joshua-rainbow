@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <g-image alt="Example image" src="~/assets/img/contact.jpg"/>
+    <g-image alt="Example image" src="~/assets/img/contact.jpg" immediate="true"/>
     <h1>HMU@</h1>
     <ul>
       <li>Email: <a href="joshua.r.osullivan@gmail.com">joshua.r.osullivan@gmail.com</a></li>
