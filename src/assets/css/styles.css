@@ -1,0 +1,49 @@
+/* ~~~~~~~~~~~~~~~~~~~~ body ~~~~~~~~~~~~~~~~~~~~ */
+
+html {
+    height:100%;
+
+    font-family: 'Cutive Mono', monospace;
+    font-size:10pt;
+    text-size-adjust:none;
+
+    background: var(--background-colour);
+    color: var(--text-colour)
+}
+
+body {
+    height:auto;
+    min-height: calc(100% - var(--spacer)*4);
+    padding: calc(var(--spacer) * 2);
+
+    background-image: url("~@/assets/img/linedpaper.png");
+
+    display:flex;
+    flex-direction: column;
+}  
+
+/* ~~~~~~~~~~~~~~~~~~~~ h1, h2, h... ~~~~~~~~~~~~~~~~~~~~ */
+
+h1 {
+    font-size:200%;
+    font-weight:bold;
+}
+h2 {
+    font-size:150%;
+    font-weight:bold;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ strong ~~~~~~~~~~~~~~~~~~~~ */
+
+strong {
+    font-weight: bold;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ a ~~~~~~~~~~~~~~~~~~~~ */
+
+a {
+    color:var(--highlight-colour);
+}
+a:visited {
+    color:var(--alt-colour);
+}

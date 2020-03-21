@@ -1,0 +1,15 @@
+:root {
+    --background-colour: #fff;
+    --text-color: #000;
+    --light-grey: #e2e2e2;
+    --highlight-colour: #00f;
+    --alt-colour:#551a8b;
+
+    --spacer: 0.5vw;
+}
+
+@media(orientation:portrait) {
+    :root {
+        --spacer: 1vw;
+    }
+}
