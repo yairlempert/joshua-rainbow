@@ -31,7 +31,7 @@ module.exports = {
         path: '**/readme.md',
         baseDir: './content/programming/',
         typeName: 'Programming',
-        route: '/Programming/:title',
+        route: '/programming/:title',
       }
     },
   ],
