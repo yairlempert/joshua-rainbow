@@ -69,6 +69,7 @@ nav ul {
 nav li {
   display:inline-block;
   font-size: 100%;
+  margin:0;
 }
 nav li:before {
   content: "~";
