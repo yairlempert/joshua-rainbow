@@ -36,7 +36,7 @@ module.exports = {
   ],
   transformers: {
     remark: {
-      imageQuality: 100,
+      imageQuality: 90,
     }
   },
   siteUrl: 'http://joshuarainbow.co.uk/',
