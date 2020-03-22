@@ -4,7 +4,7 @@
         <router-link class="link" to=".." append>Guide</router-link>: 
         {{$page.darkroom.title}}
     </h1>
-    <div id="guide-content" v-html="$page.darkroom.content"/>
+    <div id="content" v-html="$page.darkroom.content"/>
   </Layout>
 </template>
 
@@ -26,10 +26,10 @@ export default {
 }
 </script>
 
-<style lang="scss">
-#guide-content {
+<style lang="scss" scoped>
+#content {
     text-align: left;
-    max-width:calc(min(100vh, 100vw));
+    max-width:calc(min(100vh, 100%));
 
     h1, h2, h3, h4, h5 {
         margin-top: calc(var(--spacer) * 5);
