@@ -1,7 +1,7 @@
 ---
 title: "Picto"
 github: "https://github.com/onfe/Picto"
-date: "Ongoing..."
+date: "Ongoing"
 ---
 
-Work in progress...
+Drawing-based chat client built on Golang and Vue.
