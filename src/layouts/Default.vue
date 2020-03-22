@@ -43,7 +43,7 @@ query {
 
 header {
   align-self:flex-start;
-  margin-bottom: calc(var(--spacer) * 2);
+  margin-bottom: calc(var(--spacer) * 4);
 }
 footer {
   align-self:flex-end;
