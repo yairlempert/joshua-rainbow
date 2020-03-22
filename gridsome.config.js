@@ -24,11 +24,22 @@ module.exports = {
         typeName: 'Darkroom',
         route: '/darkroom/:title',
       }
-    }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: '**/readme.md',
+        baseDir: './content/programming/',
+        typeName: 'Programming',
+        route: '/Programming/:title',
+      }
+    },
   ],
   transformers: {
     remark: {
       imageQuality: 100,
     }
   },
+  siteUrl: 'http://joshuarainbow.co.uk/',
+  pathPrefix: '/',  
 }
