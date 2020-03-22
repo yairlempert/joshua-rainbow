@@ -10,6 +10,3 @@ export default {
   props: ["title","image_path","path"],
 };
 </script>
-
-<style scoped>
-</style>
