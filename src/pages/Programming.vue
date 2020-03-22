@@ -2,7 +2,7 @@
   <Layout id="layout">
     <h1>Programming Projects</h1>
     <ul>
-        <ProgrammingProjectListItem v-for="edge in $page.allProgramming.edges" 
+        <ProgrammingProject v-for="edge in $page.allProgramming.edges" 
                       :key="edge.node.id"
                       :title="edge.node.title"
                       :description="edge.node.content"
@@ -30,11 +30,11 @@ query {
 </page-query>
 
 <script>
-import ProgrammingProjectListItem from "@/components/ProgrammingProjectListItem";
+import ProgrammingProject from "@/components/ProgrammingProject";
 
 export default {
   components: {
-    ProgrammingProjectListItem
+    ProgrammingProject
   },
   metaInfo: {
     title: 'Programming Projects'

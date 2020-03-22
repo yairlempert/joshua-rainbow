@@ -1,6 +1,6 @@
 <template>
   <li class="programming-project-list-item">
-    <h2><g-link :to="path">{{ title }}</g-link></h2>
+    <strong><g-link :to="path">{{ title }}</g-link></strong>
     <strong>{{ date }}</strong>
     <p v-html="description"/>
   </li>
@@ -13,4 +13,7 @@ export default {
 </script>
 
 <style scoped>
+strong {
+  display:block;
+}
 </style>
