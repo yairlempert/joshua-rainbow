@@ -33,6 +33,12 @@ module.exports = {
         typeName: 'Programming'
       }
     },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-146872812-1'
+      }
+    },    
   ],
   transformers: {
     remark: {
