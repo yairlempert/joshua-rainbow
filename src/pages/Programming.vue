@@ -5,9 +5,9 @@
         <ProgrammingProjectListItem v-for="edge in $page.allProgramming.edges" 
                       :key="edge.node.id"
                       :title="edge.node.title"
-                      :description="edge.node.description"
+                      :description="edge.node.content"
                       :date="edge.node.date"
-                      :path="edge.node.path"/>
+                      :path="edge.node.github"/>
     </ul>
   </Layout>
 </template>
@@ -20,9 +20,9 @@ query {
       node {
         id
         title
-        description
+        content
         date
-        path
+        github
       }
     }
   }

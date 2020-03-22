@@ -28,10 +28,9 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: '**/readme.md',
+        path: '*.md',
         baseDir: './content/programming/',
-        typeName: 'Programming',
-        route: '/programming/:title',
+        typeName: 'Programming'
       }
     },
   ],
