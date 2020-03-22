@@ -61,9 +61,6 @@ header, footer {
   header, footer {
     align-self:stretch;
   }
-  footer {
-    text-align: right;
-  }
 }
 
 nav ul {
