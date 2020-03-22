@@ -1,5 +1,5 @@
 ---
-category: "_Recent"
+category: "_2020"
 title: "Work(s) in Progress"
 description: "These are images, or parts of series, that I am yet to complete."
 ---

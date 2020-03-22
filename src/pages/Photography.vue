@@ -2,22 +2,19 @@
   <Layout id="layout">
     <h1>My Pictures!</h1>
     <ul>
-        <GalleryListItem v-for="edge in $page.allPhotography.edges" 
-                      :key="edge.node.id"
-                      :title="edge.node.title"
-                      :category="edge.node.category"
-                      :path="edge.node.path"/>
+        <PhotographyCategory v-for="category in categories"
+                      :key="category"
+                      :category="category"/>
     </ul>
   </Layout>
 </template>
 
 <page-query>
 query {
-  allPhotography(sortBy: "category") {
+  allPhotography(sortBy: "category", order: DESC) {
     totalCount
     edges {
       node {
-        id
         title
         category
         path
@@ -28,14 +25,25 @@ query {
 </page-query>
 
 <script>
-import GalleryListItem from "@/components/GalleryListItem";
+import PhotographyCategory from "@/components/PhotographyCategory";
 
 export default {
   components: {
-    GalleryListItem
+    PhotographyCategory
   },
   metaInfo: {
     title: 'Photography'
+  },
+  computed: {
+    categories() {
+      return this.$page.allPhotography.edges
+        .map(edge => edge.node.category)
+        .filter(
+          function (v, i, self) {
+            return self.indexOf(v) === i
+          }
+        )
+    }
   }
 }
 </script>

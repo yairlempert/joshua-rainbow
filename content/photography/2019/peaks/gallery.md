@@ -1,5 +1,5 @@
 ---
-category: "2019"
+category: "_2019"
 title: "Peaks"
 description: "These images were exhibited at <a href='https://www.galleryatstmartins.com/'>Gallery at St.Martin's</a>"
 ---

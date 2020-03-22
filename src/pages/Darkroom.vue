@@ -7,7 +7,7 @@
       darkroom.
     </p>
     <ul class="guides">
-        <DarkroomListItem v-for="edge in $page.allDarkroom.edges" 
+        <SimpleListItem v-for="edge in $page.allDarkroom.edges" 
                       :key="edge.node.id" 
                       :title="edge.node.title"
                       :path="edge.node.path"/>
@@ -45,11 +45,11 @@ query {
 </page-query>
 
 <script>
-import DarkroomListItem from "@/components/DarkroomListItem";
+import SimpleListItem from "@/components/SimpleListItem";
 
 export default {
   components: {
-    DarkroomListItem,
+    SimpleListItem,
   },
   metaInfo: {
     title: 'Darkroom'

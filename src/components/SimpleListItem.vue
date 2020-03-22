@@ -1,7 +1,6 @@
 <template>
   <li class="page-list-item">
     <g-link :to="path" class="read" >{{ title }}</g-link>
-    <strong>{{ category }}</strong>
   </li>
 </template>
 

@@ -1,5 +1,5 @@
 ---
-category: "2019"
+category: "_2019"
 title: "Castle Warren"
 description: "Castle Warren, Carrigaline, Cork. Read more: <a href='https://www.castles.nl/castle-warren'>https://www.castles.nl/castle-warren</a>"
 ---
