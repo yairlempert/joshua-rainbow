@@ -1,6 +1,6 @@
 ---
 title: "Last.fm Tag Cloud Generator"
-github: "https://github.com/TheTeaCat/lastfm-tag-cloud"
+github: "https://theteacat.github.io/lastfm-tag-cloud/"
 date: "20/03/01"
 ---
 
