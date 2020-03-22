@@ -4,7 +4,7 @@
         <router-link class="link" to=".." append>Guide</router-link>: 
         {{$page.darkroom.title}}
     </h1>
-    <div id="content" v-html="$page.darkroom.content"/>
+    <div id="guide" v-html="$page.darkroom.content"/>
   </Layout>
 </template>
 
@@ -26,8 +26,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-#content {
+<style lang="scss">
+#guide {
     text-align: left;
     max-width:calc(min(100vh, 100%));
 
