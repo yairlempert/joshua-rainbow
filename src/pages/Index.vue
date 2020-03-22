@@ -9,7 +9,7 @@
     <ul>
       <li>
         <g-image :alt="title" src="~/assets/img/thelittlebell.jpg" immediate="true"/>
-        <g-link to="/photography/recent/the-little-bell/">The Little Bell</g-link>
+        <g-link to="/photography/2020/the-little-bell/">The Little Bell</g-link>
       </li>
       <li>
         <g-image :alt="title" src="~/assets/img/corrineleland.jpg" immediate="true"/>
