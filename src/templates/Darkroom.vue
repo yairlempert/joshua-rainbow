@@ -32,20 +32,20 @@ export default {
     max-width:calc(min(100vh, 100%));
 
     h1, h2, h3, h4, h5 {
-        margin-top: calc(var(--spacer) * 5);
+        margin-top: calc(var(--spacer) * 10);
     }
 
     img {
         width:auto;
         display:block;
-        margin: var(--spacer) auto;
+        margin: calc(var(--spacer) * 2) auto;
         max-width:100%;
         max-height:70vh;
     }
 
     p, table {
         box-sizing: border-box;
-        padding: var(--spacer) 0; 
+        padding: calc(var(--spacer) * 2) 0; 
     }
 
     table { 
@@ -56,7 +56,7 @@ export default {
         overflow-x: auto;
     }
     th, td {
-        padding: calc(var(--spacer) / 2);
+        padding: var(--spacer);
         border:1px solid var(--background-colour);
     }
     th { 
