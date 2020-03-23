@@ -12,7 +12,9 @@
                       :title="edge.node.title"
                       :path="edge.node.path"/>
     </ul>
+    <hr>
     <g-image alt="An image of the darkroom" src="~/assets/img/darkroom.jpg" immediate="true" quality="100"/>
+    <hr>
     <h2>Other Resources</h2>
     <p>
       If you want to learn more about darkroom techniques, I'd recommend the following resources:
