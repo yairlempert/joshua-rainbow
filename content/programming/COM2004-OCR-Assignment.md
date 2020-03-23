@@ -1,6 +1,6 @@
 ---
 title: "OCR in Python"
-github: "https://github.com/TheTeaCat/COM2004-OCR-Assignment"
+link: "https://github.com/TheTeaCat/COM2004-OCR-Assignment"
 date: "19/12/16"
 ---
 

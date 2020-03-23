@@ -1,6 +1,6 @@
 ---
 title: "Playlist-Gen"
-github: "https://github.com/theteacat/playlist-gen"
+link: "https://github.com/theteacat/playlist-gen"
 date: "On hold"
 ---
 

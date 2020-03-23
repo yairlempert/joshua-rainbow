@@ -7,7 +7,7 @@
                       :title="edge.node.title"
                       :description="edge.node.content"
                       :date="edge.node.date"
-                      :path="edge.node.github"/>
+                      :link="edge.node.link"/>
     </ul>
   </Layout>
 </template>
@@ -21,8 +21,8 @@ query {
         id
         title
         content
+        link
         date
-        github
       }
     }
   }

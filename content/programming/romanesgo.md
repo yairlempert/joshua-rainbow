@@ -1,6 +1,6 @@
 ---
 title: "Romanesgo"
-github: "https://github.com/TheTeaCat/romanesgo"
+link: "https://github.com/TheTeaCat/romanesgo"
 date: "18/09/01"
 ---
 

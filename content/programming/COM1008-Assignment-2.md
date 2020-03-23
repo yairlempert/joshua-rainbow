@@ -1,6 +1,6 @@
 ---
 title: "Vanilla .js Cat"
-github: "https://github.com/TheTeaCat/COM1008-Assignment-2"
+link: "https://github.com/TheTeaCat/COM1008-Assignment-2"
 date: "18/12/10"
 ---
 

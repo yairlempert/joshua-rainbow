@@ -1,6 +1,6 @@
 ---
 title: "Picto"
-github: "https://github.com/onfe/Picto"
+link: "https://github.com/onfe/Picto"
 date: "Ongoing"
 ---
 
