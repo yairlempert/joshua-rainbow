@@ -2,9 +2,9 @@
   <Layout id="layout">
     <h1>My Pictures!</h1>
     <ul>
-        <PhotographyCategory v-for="category in categories"
-                      :key="category"
-                      :category="category"/>
+      <PhotographyCategory v-for="category in categories"
+                    :key="category"
+                    :category="category"/>
     </ul>
   </Layout>
 </template>
@@ -51,10 +51,19 @@ export default {
 <style scoped>
 ul {
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+    flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-around;
+    list-style: none;
 }
 ul li {
     text-align:left;
+}
+@media(orientation: portrait) {
+  ul {
+      flex-direction:column;
+      align-items: flex-start;
+  }  
 }
 </style>

@@ -1,12 +1,14 @@
 <template>
-  <ul>
-    <strong>{{ category }}</strong>
-    <SimpleListItem 
-        v-for="edge in pageEdges"
-        :key="edge.node.id"
-        :title="edge.node.title"
-        :path="edge.node.path"/>
-  </ul>
+  <li>
+    <ul>
+      <strong>{{ category }}</strong>
+      <SimpleListItem 
+          v-for="edge in pageEdges"
+          :key="edge.node.id"
+          :title="edge.node.title"
+          :path="edge.node.path"/>
+    </ul>
+  </li>
 </template>
 
 <script>
@@ -37,5 +39,10 @@ export default {
 <style scoped>
 strong {
   display: block;
+}
+ul {
+    flex-direction:column;
+    margin-top: calc(var(--spacer) * 2);
+    margin-bottom: calc(var(--spacer) * 2);
 }
 </style>
