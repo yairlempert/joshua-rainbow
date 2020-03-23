@@ -38,14 +38,14 @@ export default {
     img {
         width:auto;
         display:block;
-        margin: calc(var(--spacer) * 2) auto;
+        margin: calc(var(--spacer) * 4) auto;
         max-width:100%;
         max-height:70vh;
     }
 
     p, table {
         box-sizing: border-box;
-        padding: calc(var(--spacer) * 2) 0; 
+        margin: calc(var(--spacer) * 4) 0; 
     }
 
     table { 
