@@ -1,5 +1,5 @@
 ---
-title: "Developing Film With Ilford ID-11"
+title: "Developing Film With Ilford ID-11 (Work In Progress)"
 ---
 
 ID-11 is a black and white developer. It will not work well for chromogenic films and some black and white films are chromogenic! Check your film doesn't say "C-41" somewhere on it. If it does, then it needs to be processed like a colour negative film.

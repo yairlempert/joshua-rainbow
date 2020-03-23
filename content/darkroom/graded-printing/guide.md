@@ -1,5 +1,5 @@
 ---
-title: "Graded B&W Printing"
+title: "Graded B&W Printing (Work In Progress)"
 ---
 
 You'll need some resin coated (RC) silver gelatin paper and some negatives. Everything else should be provided. Following this guide in its entirety will give you *graded prints*. Once you've got the hang of this, you may want to research *split grade printing*, which will give you even greater creative control.
