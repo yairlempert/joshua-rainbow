@@ -50,20 +50,21 @@ export default {
 
 <style scoped>
 ul {
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around;
-    list-style: none;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  list-style: none;
 }
 ul li {
-    text-align:left;
+  margin-top: var(--spacer);
+  text-align:left;
 }
 @media(orientation: portrait) {
   ul {
-      flex-direction:column;
-      align-items: flex-start;
+    flex-direction:column;
+    align-items: flex-start;
   }  
 }
 </style>
