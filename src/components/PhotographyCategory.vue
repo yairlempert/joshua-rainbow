@@ -3,7 +3,7 @@
     <ul>
       <strong>{{ category }}</strong>
       <SimpleListItem 
-          v-for="edge in pageEdges"
+          v-for="edge in pages"
           :key="edge.node.id"
           :title="edge.node.title"
           :path="edge.node.path"/>
@@ -18,21 +18,7 @@ export default {
   components: {
     SimpleListItem
   },
-  props: ["title","category","path"],
-  computed: {
-    pageEdges() {
-      return this.$page.allPhotography.edges
-        .filter(
-          function (edge, i, self) {
-            return edge.node.category === this.category
-            }.bind(this)
-        ).sort(
-          function (a, b) {
-            return (a.node.title < b.node.title) ? -1 : 1
-            }
-        )
-    }
-  }
+  props: ["title","category","pages","path"]
 };
 </script>
 

@@ -4,7 +4,8 @@
     <ul>
       <PhotographyCategory v-for="category in categories"
                     :key="category"
-                    :category="category"/>
+                    :category="category"
+                    :pages="pagesOfCategory(category)"/>
     </ul>
   </Layout>
 </template>
@@ -42,6 +43,20 @@ export default {
           function (v, i, self) {
             return self.indexOf(v) === i
           }
+        )
+    }
+  },
+  methods: {
+    pagesOfCategory(category) {
+      return this.$page.allPhotography.edges
+        .filter(
+          function (edge, i, self) {
+            return edge.node.category === category
+            }.bind(this)
+        ).sort(
+          function (a, b) {
+            return (a.node.title < b.node.title) ? -1 : 1
+            }
         )
     }
   }
