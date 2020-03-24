@@ -63,4 +63,7 @@ li {
     }
   }
 }
+ul li:first-child {
+  margin-top: var(--spacer);
+}
 </style>
