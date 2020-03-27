@@ -24,7 +24,7 @@ query Photography ($path: String!) {
 <script>
 export default {
   metaInfo: {
-    title: 'Guide'
+    title: 'Photography'
   }
 }
 </script>

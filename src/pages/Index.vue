@@ -34,7 +34,7 @@ export default {
     FeaturedPageListItem
   },
   metaInfo: {
-    title: 'Joshua Rainbow'
+    title: 'Index'
   }
 }
 </script>

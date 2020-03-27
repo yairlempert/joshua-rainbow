@@ -37,7 +37,7 @@ export default {
     ProgrammingProject
   },
   metaInfo: {
-    title: 'Programming Projects'
+    title: 'Programming'
   }
 }
 </script>
