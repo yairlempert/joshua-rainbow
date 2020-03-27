@@ -11,6 +11,10 @@ export default function (Vue, { router, head, isClient }) {
     rel:"stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap"
   })
+  head.meta.push({
+    name:"Description",
+    content:"Photography, programming and darkroom guides."
+  })
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 }
