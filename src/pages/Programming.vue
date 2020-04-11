@@ -1,6 +1,9 @@
 <template>
   <Layout id="layout">
     <h1>Programming Projects</h1>
+    <p>Here you can find links to a few programming projects of mine.</p>
+    <p>I'm not going to waste my time writing self important egotistical blog posts about them. 
+      If you want to know more, they all have readmes on their github repositories.</p>
     <ul>
         <ProgrammingProject v-for="edge in $page.allProgramming.edges" 
                       :key="edge.node.id"
