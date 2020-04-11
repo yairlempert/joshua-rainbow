@@ -1,17 +1,19 @@
 <template>
-  <Layout id="layout">
-    <h1>Programming Projects</h1>
-    <p>Here you can find links to a few programming projects of mine.</p>
-    <p>I'm not going to waste my time writing self important egotistical blog posts about them. 
-      If you want to know more, they all have readmes on their github repositories.</p>
-    <ul>
-        <ProgrammingProject v-for="edge in $page.allProgramming.edges" 
-                      :key="edge.node.id"
-                      :title="edge.node.title"
-                      :description="edge.node.content"
-                      :date="edge.node.date"
-                      :link="edge.node.link"/>
-    </ul>
+  <Layout>
+    <div id="wrapper">
+      <h1>Programming Projects</h1>
+      <p>Here you can find links to a few programming projects of mine.</p>
+      <p>I'm not going to waste time writing self important egotistical blog posts about them. 
+        If you want to know more, there's readmes on their github repositories.</p>
+      <ul>
+          <ProgrammingProject v-for="edge in $page.allProgramming.edges" 
+                        :key="edge.node.id"
+                        :title="edge.node.title"
+                        :description="edge.node.content"
+                        :date="edge.node.date"
+                        :link="edge.node.link"/>
+      </ul>
+    </div>
   </Layout>
 </template>
 
@@ -46,6 +48,10 @@ export default {
 </script>
 
 <style scoped>
+#wrapper {
+  max-width:calc(min(100vh, 100%));
+  margin:0;
+}
 ul {
   list-style: none;
 }

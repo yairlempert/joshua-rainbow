@@ -90,9 +90,10 @@ content {
   justify-content: center;
   align-items: center;
 
+  text-align: center;
+
   * {
     margin: var(--spacer) 0;
-    text-align: center;
   }
   img {
     max-height: 70vh;
