@@ -1,33 +1,48 @@
 ---
-title: "Developing Film With Ilford ID-11 (Work In Progress)"
+title: "Developing Film With Ilford ID-11"
 ---
 
-ID-11 is a black and white developer. It will not work well for chromogenic films and some black and white films are chromogenic! Check your film doesn't say "C-41" somewhere on it. If it does, then it needs to be processed like a colour negative film.
+ID-11 is a black and white film developer. It will not work well for chromogenic films and some black and white films are chromogenic! Check your film doesn't say "C-41" somewhere on it. If it does, then it needs to be processed like a colour negative film.
+
+
+
+## Before We Begin - If Things Go Wrong
+
+If things go wrong, it doesn't matter, as long as you tell us about it!
+
+You will not be held responsible for pouring fix into our developer or anything silly like that. It's easily replaced. We just need to know **as soon as it happens**, as we don't want other people to use dodgy chemistry - their pictures *aren't* easily replaced!
+
+Failing to report incidents **as soon as possible** will result in your darkroom access being revoked.
 
 
 
 ## Determining Your Development Time
 
-You'll need to find your development time. You can find this on the development time chart that should be mounted on the door of one of the cupboards. Find the time in the row for *ID-11 Stock*, in the column that corresponds to the film you have and the ISO you exposed it at.
+You'll need to find your **development time**. You can find this on the development time chart that should be mounted on the door of one of the cupboards. Find the time in the row for *ID-11 Stock*, in the column that corresponds to the film you have and the ISO you exposed it at (e.g., *Ilford HP5* @ ISO 400).
 
 If you can't find your film on this chart, check the massive dev chart online.
 
 The massive dev chart: https://www.digitaltruth.com/devchart.php
 
-If you can't find it on the massive dev chart, contact the darkroom officer at shefuniphotosoc@gmail.com.
+If you can't find it on the massive dev chart, [contact a darkroom officer](#contact).
 
-You'll then need to find the large (5 litre) amber glass bottle of *Ilford ID-11*. It should have several labels on it. Each label should have up to five tally marks, and a compensation factor for the exhaustion of the developer (`N + %`). Find the current label (the one with the lowest % with less than five marks on it) and take note of its compensation value. 
+You'll then need to find the large (5 litre) amber glass bottle of *Ilford ID-11*.
 
-You need to add this percentage of time onto your development time. You can simply convert your
-development time into seconds and use the following multipliers:
+The number of times the *Ilford ID-11* has been used should be documented somewhere in the darkroom. You need to know how many times it has been used, as every time it is used it becomes weaker (exhausted). You need to compensate for this by extending your **development time**.
 
-| Compensation | N+10% | N+20% | N+30% | N+40% | N+90% |
-| ------------ | ----- | ----- | ----- | ----- | ----- |
-| Multiplier   | 1.1   | 1.2   | 1.3   | 1.4   | 1.9   |
+If you can't find how many times the *ID-11* has been used, [contact a darkroom officer](#contact).
+
+To figure out your **compensated development time**, you can read off the following table to get a multiplier:
+
+| Uses       | 1-5  | 6-10 | 11-15 | 16-20 | 21-25 | 26-30 | 31-35 | 36-40 | 41-45 | 46-50 |
+| ---------- | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Multiplier | 1    | 1.1  | 1.2   | 1.3   | 1.4   | 1.5   | 1.6   | 1.7   | 1.8   | 1.9   |
+
+You then need to multiply your **development time** by this multiplier to get your **compensated development time**.
 
 For example, *Ilford HP5* @ ISO 400 in *Stock ID-11* has a development time of `7 minutes and 30 seconds`. 
 
-This is `7 * 60 + 30 = 450` seconds. If my compensation factor was `N+40%` I would multiply this by `1.4`, so my compensated development time would be `630` seconds (or `10 minutes 30 seconds`).
+This is `7 * 60 + 30 = 450` seconds. If the *ID-11* had been used `23` times, I would multiply this by `1.4`, so my **compensated development time** would be `630` seconds (or `10 minutes 30 seconds`).
 
 
 
@@ -49,56 +64,59 @@ You'll need a **developer**, a **stop**, and a **fixer**. You'll need a measurin
 
 
 - *Ilford Rapid Fixer* can be found in a **large 5 litre HDPE plastic bottle**. It should be labelled “Ilford Rapid Fixer Mixed 1+4”.
-  **Important:** Do not dilute the fixer, it must be reused and diluting it will cause problems for everyone.
 
 
 
 The following volumes are recommended minimums in the case of the **developer** and **fixer**. It doesn't matter if you use more than this, as you'll be putting it back when you're done with it anyway.
 
-|                                  | Films  | Required Volume (ml) | = Solution (ml) | + Water (ml) |
-| -------------------------------- | ------ | -------------------- | --------------- | ------------ |
-| **Developer** (*Stock ID-11*)    | 1x135* | 300                  | 300             | 0            |
-|                                  | 1x120  | 500                  | 500             | 0            |
-|                                  | 2x135* | 600                  | 600             | 0            |
-| **Stop** (*Ilford Ilfostop*)     | 1x135* | 300                  | 15              | 285          |
-|                                  | 1x120  | 500                  | 25              | 475          |
-|                                  | 2x135* | 600                  | 30              | 570          |
-| **Fixer** (*Ilford Rapid Fixer*) | 1x135* | 300                  | 300             | 0            |
-|                                  | 1x120  | 500                  | 500             | 0            |
-|                                  | 2x135* | 600                  | 600             | 0            |
+|                                      | Films    | Required Volume (ml) | = Solution (ml) | + Water (ml) |
+| ------------------------------------ | -------- | -------------------- | --------------- | ------------ |
+| **Developer** (*Stock ID-11*)        | 1x135`*` | 300                  | 300             | 0            |
+|                                      | 1x120    | 500                  | 500             | 0            |
+|                                      | 2x135`*` | 600                  | 600             | 0            |
+| **Stop** (*Ilford Ilfostop*)         | 1x135`*` | 300                  | 15              | 285          |
+|                                      | 1x120    | 500                  | 25              | 475          |
+|                                      | 2x135`*` | 600                  | 30              | 570          |
+| **Fixer** (*Ilford Rapid Fixer*`**`) | 1x135`*` | 300                  | 300             | 0            |
+|                                      | 1x120    | 500                  | 500             | 0            |
+|                                      | 2x135`*` | 600                  | 600             | 0            |
 
-*135 = "35mm" film
+`*`135 = "35mm" film
+
+`**`The *Ilford Rapid Fixer* has already been diluted for you.
+
+For measuring out small volumes (in the case of *Ilfostop*), you should be able to find a small 50ml measuring cylinder somewhere in the darkroom.
 
 
 
 ## Agitation
 
-Processing will require you to agitate the development tank. This should be done as gently as you would treat a small child; be gentle. Too vigorous agitation will result in **surge marks**, while too little will result in **bromide drag**.
+Processing will require you to agitate the development tank. This should be done gently. Too vigorous agitation will result in **surge marks**, while too little will result in **bromide drag**.
 
 I agitate for the first thirty seconds of development, then for the last 10 seconds of every subsequent minute, although this is not the only method. You may prefer something else, like continuous agitation. You may find rollers in one of the drawers for this, but I find the tanks tend to leak.
 
-You may invert the tank while agitating, but do not leave it inverted for more than a few seconds as, again, the tank may leak. 
+You may invert the tank while agitating, but do not leave it inverted for more than a few seconds. 
 
-You should tap the development tank gently on the wet bench to dislodge any air bubbles after each agitation, but be gentle; the tanks are not indestructible, they will crack!
+You should tap the development tank gently on the wet bench to dislodge any air bubbles after each agitation, but be careful; the tanks are not indestructible, they will crack!
 
 
 
 ## Processing
 
-1. Prepare your timer with your development time.
-   **NOTE**: The timing of the development time is **critical**. Aim to keep it within +/- 10 seconds.
+1. Prepare a timer with your **compensated development time**.
+   **NOTE**: The timing of the development time is critical. Aim to keep it within +/- 10 seconds.
    
    
    
-2. Quickly pour your **developer** from the measuring cylinder into your development tank, start your timer, then agitate as described under the **Agitation** section until the timer goes off.
+2. Pour your **developer** from the measuring cylinder into your development tank, start your timer, then agitate as described under the **Agitation** section until the timer goes off.
    
    
    
-3. Quickly Pour the **developer** back into its measuring cylinder.
+3. Pour the **developer** back into its measuring cylinder.
    
    
    
-4. Quickly pour your **stop** from the measuring cylinder into your development tank, then:
+4. Pour your **stop** from its measuring cylinder into your development tank, then:
 
    1. Agitate the development tank for ~10 seconds (just count to ten).
 
@@ -115,7 +133,7 @@ You should tap the development tank gently on the wet bench to dislodge any air 
    
    
    
-6. Pour your fixer from the measuring cylinder into the development tank, start your timer, then agitate as you did for the developer.
+6. Pour your fixer from the measuring cylinder into the development tank, start your timer, then agitate as you did for the developer until the timer goes off again.
    
    
    
@@ -127,21 +145,23 @@ You should tap the development tank gently on the wet bench to dislodge any air 
    
    
    
-9. At this stage you can open your development tank and inspect the sides of the film for edge markings and frame numbers to ensure it's developed, but don't remove it from the spiral yet! 
+9. At this stage you can open your development tank and inspect the sides of the film for edge markings and frame numbers to ensure it's developed. You likely won't be able to see images while the film is wrapped around the spiral, but don't remove it yet!
    
    
    
-10. Put your film back in its development tank and leave it under running water under the tap for 5 more minutes.
+10. Put your film back in its development tank and leave it under a running tap for 5 more minutes.
     In the meantime, you can:
+    
     1. Pour the **fixer** (will smell of vinegar) back into its bottle as it can be reused.
     2. Pour the **developer** (ID-11) back into its bottle as it can be reused.
-    3. You can reuse **stop** (which will normally be yellow) until it turns purple. Unless you're going to reuse it immediately, pour it down the drain.
-    4. Rinse out the measuring cylinders you used and leave them to dry.
-    5. Wipe down the wet bench with paper towels.
-    6. Remove your gloves, and return your other PPE to where it belongs.
-    7. Return any tools (scissors, bottle opener...) to their drawers.
-    8. Put your scrap film/backing paper/film canisters in the bin.
-    9. **Important:** Mark off how many films you developed on the **developer** (ID-11) bottle's labels!
+    3. **Important:** Please don't mix up the fixer and developer. If you do accidentally pour fix into developer or developer into fix, [contact a darkroom officer](#contact) **IMMEDIATELY**.
+    4. You can reuse **stop** (which will normally be yellow) until it turns purple. Unless you're going to reuse it immediately, pour it down the drain.
+    5. Rinse out the measuring cylinders you used and leave them to dry.
+    6. Wipe down the wet bench with paper towels.
+    7. Remove your gloves, and return your other PPE to where it belongs.
+    8. Return any tools (scissors, bottle opener...) to their drawers.
+    9. Put your scrap film/backing paper/film canisters in the bin.
+    10. **Important:** Mark down how many films you developed so the next person knows how much they need to compensate their development time!
 
    
 
@@ -165,7 +185,7 @@ You should tap the development tank gently on the wet bench to dislodge any air 
 
 ## Troubleshooting
 
-If something's gone wrong, and it's not listed here, contact the darkroom officer at shefuniphotosoc@gmail.com.
+If something's gone wrong, and it's not listed here, [contact a darkroom officer](#contact).
 
 
 
@@ -175,7 +195,7 @@ If something's gone wrong, and it's not listed here, contact the darkroom office
 
 
 - **Purple Negatives**: 
-  This can be caused by inadequate washing or under fixing. First try running the film under the tap for a further three minutes. If this doesn't work, try fixing and then washing the film again. If the film is still purple, contact the darkroom officer at shefuniphotosoc@gmail.com.
+  This can be caused by inadequate washing or under fixing. First try running the film under the tap for a further three minutes. If this doesn't work, try fixing and then washing the film again. If the film is still purple, please [contact a darkroom officer](#contact).
 
 
 
@@ -215,7 +235,7 @@ If something's gone wrong, and it's not listed here, contact the darkroom office
 
 
 - **Film Is Clear And Has No Edge Markings**: 
-  This will occur if the film is fixed before it is developed.
+  This will usually occur if the film is fixed before it is developed.
 
 
 
@@ -224,3 +244,10 @@ If something's gone wrong, and it's not listed here, contact the darkroom office
 I recommend you store your negatives flat, as otherwise they will be difficult to scan and print from.
 
 The best solution is to get yourself some archival sheets. They should be easy to find online.
+
+
+
+## Contact
+
+You can contact a darkroom officer at [shefuniphotosoc@gmail.com](shefuniphotosoc@gmail.com).
+
