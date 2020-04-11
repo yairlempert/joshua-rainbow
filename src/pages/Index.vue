@@ -1,5 +1,5 @@
 <template>
-  <Layout id="layout">
+  <Layout>
     <g-image alt="A photograph of Josh" src="~/assets/img/index.jpg" immediate="true"/>
     <h1>Joshua Rainbow O'Sullivan</h1>
     <p>

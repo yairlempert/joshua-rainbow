@@ -1,5 +1,5 @@
 <template>
-  <Layout id="layout">
+  <Layout>
     <h1>My Pictures!</h1>
     <ul>
       <PhotographyCategory v-for="category in categories"
