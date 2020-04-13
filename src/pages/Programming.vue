@@ -3,8 +3,7 @@
     <div id="wrapper">
       <h1>Programming Projects</h1>
       <p>Here you can find links to a few programming projects of mine.</p>
-      <p>I'm not going to waste time writing self important egotistical blog posts about them. 
-        If you want to know more, there's readmes on their github repositories.</p>
+      <p>You can find out more in the readmes on their github repositories.</p>
       <ul>
           <ProgrammingProject v-for="edge in $page.allProgramming.edges" 
                         :key="edge.node.id"
