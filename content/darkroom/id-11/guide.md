@@ -32,7 +32,7 @@ https://www.digitaltruth.com/devchart.php
 
 If you can't find it on the massive dev chart, [contact a darkroom officer](#contact).
 
-You'll then need to find the number of times our developer, *Ilford ID-11* (found in a large 5 litre amber glass bottle), has been used. This should be documented somewhere in the darkroom. Every time it is used it becomes weaker (exhausted), and tou need to compensate for this by extending your **development time**.
+You'll then need to find the number of times our developer, *Ilford ID-11* (found in a large 5 litre amber glass bottle), has been used. This should be documented somewhere in the darkroom. Every time it is used it becomes weaker (exhausted), and you need to compensate for this by extending your **development time**.
 
 If you can't find how many times the *ID-11* has been used, [contact a darkroom officer](#contact).
 
