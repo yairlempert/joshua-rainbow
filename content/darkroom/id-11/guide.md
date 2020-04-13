@@ -18,21 +18,25 @@ Failing to report incidents **as soon as possible** will result in your darkroom
 
 ## Determining Your Development Time
 
-You'll need to find your **development time**. You can find this on the development time chart that should be mounted on the door of one of the cupboards. Find the time in the row for *ID-11 Stock*, in the column that corresponds to the film you have and the ISO you exposed it at (e.g., *Ilford HP5* @ ISO 400).
+You'll need to find your **development time**. You can find this on the development chart that should be mounted on the door of one of the cupboards. Find the time in the row for *ID-11 Stock*, in the column that corresponds to the film you have and the ISO you exposed it at (e.g., *Ilford HP5* @ ISO 400), like in the example below.
 
-If you can't find your film on this chart, check the massive dev chart online.
+![A highlighted example of how to read the development chart](./img/chart.jpg)
 
-The massive dev chart: https://www.digitaltruth.com/devchart.php
+You can find a digital copy of the chart here:
+
+[https://www.ilfordphoto.com/amfile/file/download/file/1953/product/1650/](https://www.ilfordphoto.com/amfile/file/download/file/1953/product/1650/)
+
+If you can't find your film on this chart, check the massive dev chart online:
+
+https://www.digitaltruth.com/devchart.php
 
 If you can't find it on the massive dev chart, [contact a darkroom officer](#contact).
 
-You'll then need to find the large (5 litre) amber glass bottle of *Ilford ID-11*.
-
-The number of times the *Ilford ID-11* has been used should be documented somewhere in the darkroom. You need to know how many times it has been used, as every time it is used it becomes weaker (exhausted). You need to compensate for this by extending your **development time**.
+You'll then need to find the number of times our developer, *Ilford ID-11* (found in a large 5 litre amber glass bottle), has been used. This should be documented somewhere in the darkroom. Every time it is used it becomes weaker (exhausted), and tou need to compensate for this by extending your **development time**.
 
 If you can't find how many times the *ID-11* has been used, [contact a darkroom officer](#contact).
 
-To figure out your **compensated development time**, you can read off the following table to get a multiplier:
+To figure out your **compensated development time**, you need a multiplier from the following table:
 
 | Uses       | 1-5  | 6-10 | 11-15 | 16-20 | 21-25 | 26-30 | 31-35 | 36-40 | 41-45 | 46-50 |
 | ---------- | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -42,7 +46,7 @@ You then need to multiply your **development time** by this multiplier to get yo
 
 For example, *Ilford HP5* @ ISO 400 in *Stock ID-11* has a development time of `7 minutes and 30 seconds`. 
 
-This is `7 * 60 + 30 = 450` seconds. If the *ID-11* had been used `23` times, I would multiply this by `1.4`, so my **compensated development time** would be `630` seconds (or `10 minutes 30 seconds`).
+This is `7 * 60 + 30 = 450` seconds. If the *ID-11* had been used `23` times, I would multiply this by `1.4`, so my **compensated development time** would be `450 * 1.4 = 630` seconds (or `10 minutes 30 seconds`).
 
 
 
@@ -86,6 +90,8 @@ The following volumes are recommended minimums in the case of the **developer** 
 `**`The *Ilford Rapid Fixer* has already been diluted for you.
 
 For measuring out small volumes (in the case of *Ilfostop*), you should be able to find a small 50ml measuring cylinder somewhere in the darkroom.
+
+You should also be able to find a 200ml syringe to help getting the *ID-11* and *Ilford Rapid Fixer* out of their 5l bottles and into the graduates.
 
 
 
@@ -133,11 +139,11 @@ You should tap the development tank gently on the wet bench to dislodge any air 
    
    
    
-6. Pour your fixer from the measuring cylinder into the development tank, start your timer, then agitate as you did for the developer until the timer goes off again.
+6. Pour your **fixer** from the measuring cylinder into the development tank, start your timer, then agitate as you did for the developer until the timer goes off again.
    
    
    
-7. Pour the fixer back into its measuring cylinder.
+7. Pour the **fixer** back into its measuring cylinder.
    
    
    
@@ -185,12 +191,12 @@ You should tap the development tank gently on the wet bench to dislodge any air 
 
 ## Troubleshooting
 
-If something's gone wrong, and it's not listed here, [contact a darkroom officer](#contact).
+If something hasn't gone quite right, always [contact a darkroom officer](#contact) so we can be sure of what's gone wrong, even if it's listed here.
 
 
 
 - **Drying Marks**: 
-  Drying marks can be removed using countless methods. Isopropyl alcohol and a microfiber cloth works for me, but you can find countless other solutions online. Just be careful if the marks are on the emulsion (matt) side of the film as if you scratch this, you're scratching your image off the film! The glossy side is more robust but while there exist solutions to fix scratches on this side, it's best not to scratch it at all in the first place, so still be gentle.
+  Drying marks can be removed using countless methods. Isopropyl alcohol and a microfiber cloth works for me, but you can find countless other solutions online. Just be careful if the marks are on the emulsion (matt) side of the film as if you scratch this, you're scratching your image off the film! The glossy side is more robust but while there exist solutions to fix scratches on this side, it's best not to scratch it in the first place, so be gentle.
 
 
 
@@ -210,7 +216,7 @@ If something's gone wrong, and it's not listed here, [contact a darkroom officer
 
 
 - **Film Has Denser Areas Around/Trailing From The Sprocket Holes**: 
-  These are called surge marks. They are caused by over agitation during development.
+  If they are uniform marks trailing from the sprocket holes in pairs, and you are left handed, they may be stress marks from winding the film back into its canister backwards. Otherwise, these are probably surge marks, generally caused by over agitation during development.
 
 
 
@@ -219,7 +225,7 @@ If something's gone wrong, and it's not listed here, [contact a darkroom officer
 
 
 
-- **Film Has Strange Dense Marks**: 
+- **Film Has Other Strange Dense Marks**: 
   These may be light leaks. It may be possible to determine how the light leak happened by the geometry of the light leaks. For example, if it looks like the film has been marked with a shadow of itself it was likely fogged while it was being loaded into the development tank. If the light leaks are repetitive, align with frames, or emanate from the edges of the film (not the sprockets), it may be a light leak in your camera.
 
 
