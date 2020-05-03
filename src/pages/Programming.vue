@@ -53,6 +53,7 @@ export default {
 }
 ul {
   list-style: none;
+  padding-left:0;
 }
 ul li {
   margin-top: calc(var(--spacer) * 2);

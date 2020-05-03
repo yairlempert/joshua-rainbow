@@ -44,6 +44,7 @@ ul {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-left:0;
 }
 li {
   display:inline-block;

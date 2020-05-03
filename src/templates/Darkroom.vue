@@ -31,29 +31,30 @@ export default {
     text-align: left;
     max-width:calc(min(100vh, 100%));
 
+    * {
+      overflow-wrap: break-word;
+      max-width:100%;
+    }
+    
+    >* {
+      margin: calc(var(--spacer) * 4) 0; 
+      display:block;
+    }
+
     h1, h2, h3, h4, h5 {
-        margin-top: calc(var(--spacer) * 10);
+      margin-top: calc(var(--spacer) * 10);
     }
 
     img {
-        width:auto;
-        display:block;
         margin: calc(var(--spacer) * 4) auto;
-        max-width:100%;
         max-height:70vh;
     }
 
-    p, table {
-        box-sizing: border-box;
-        margin: calc(var(--spacer) * 4) 0; 
-    }
-
     table { 
-        width:fit-content;
-        display:block;
-        margin: 0 auto;
-        max-width:100%;
         overflow-x: auto;
+        width:fit-content;
+        margin-left: auto;
+        margin-right: auto;
     }
     th, td {
         padding: var(--spacer);

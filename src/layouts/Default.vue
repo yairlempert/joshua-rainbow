@@ -65,6 +65,7 @@ header, footer {
 
 nav ul {
   margin: 0;
+  padding-left:0;  
 }
 nav li {
   display:inline-block;
