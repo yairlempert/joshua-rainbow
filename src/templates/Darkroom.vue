@@ -56,8 +56,7 @@ export default {
     table { 
         overflow-x: auto;
         width:fit-content;
-        margin-left: auto;
-        margin-right: auto;
+        margin: calc(var(--spacer) * 4) auto;
     }
     th, td {
         padding: var(--spacer);
