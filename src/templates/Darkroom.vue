@@ -48,6 +48,9 @@ export default {
     img {
         margin: calc(var(--spacer) * 4) auto;
         max-height:70vh;
+        max-width:calc(min(70vh, 100%));
+        width:auto;
+        display:block;
     }
 
     table { 
