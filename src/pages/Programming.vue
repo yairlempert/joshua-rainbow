@@ -54,8 +54,19 @@ export default {
 ul {
   list-style: none;
   padding-left:0;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
 }
 ul li {
-  margin-top: calc(var(--spacer) * 2);
+  margin: calc(var(--spacer) * 2) 0;
+  flex-basis:33%;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+@media(orientation: portrait) {
+  ul li {
+    flex-basis:50%;
+  }
 }
 </style>
