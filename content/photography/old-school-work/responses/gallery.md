@@ -1,9 +1,12 @@
 ---
-category: "Old School Work"
-title: "Responses"
-description: "A Level Photography Coursework. Made in response to <a href='https://duxuebing.com/'>Xuebing Du</a> and Joyce Taihei's <a href='https://massart.edu/artwork/sans-silver'>Sans Silver</a>.
-<br><br>
-Most of the images from Sans Silver have seemingly since disappeared from the internet."
+category: Old School Work
+title: Responses
+description: A Level Photography Coursework. Made in response to <a href='https://duxuebing.com/'>Xuebing
+  Du</a> and Joyce Taihei's <a href='https://massart.edu/artwork/sans-silver'>Sans
+  Silver</a>. <br><br> Most of the images from Sans Silver have seemingly since disappeared
+  from the internet. <br><br> My VIth form's photography department has instagram,
+  follow them! <br> <a href='https://www.instagram.com/williamfarrschoolphotography/'>@williamfarrschoolphotography</a>
+
 ---
 ![yPRRh1abumqhHl4rftHC](./yPRRh1abumqhHl4rftHC.jpg)
 ![wcGCIKbckOiNkTSA87IT](./wcGCIKbckOiNkTSA87IT.jpg)
