@@ -1,9 +1,11 @@
 ---
-category: "Old School Work"
-title: "Responses 2"
-description: "A Level Photography Exam Work in response to Vivian Maier.
-<br><br>
-Archive: <a href='http://www.vivianmaier.com/'>http://www.vivianmaier.com/</a>"
+category: Old School Work
+title: Responses 2
+description: 'A Level Photography Exam Work in response to Vivian Maier. <br><br>
+  Archive: <a href=''http://www.vivianmaier.com/''>http://www.vivianmaier.com/</a>
+  <br><br> My VIth form''s photography department has instagram, follow them! <br>
+  <a href=''https://www.instagram.com/williamfarrschoolphotography/''>@williamfarrschoolphotography</a>'
+
 ---
 ![ZYjIRTOBiBh4BijdO69d.jpg](./ZYjIRTOBiBh4BijdO69d.jpg)
 ![zLxmkPaZpawyJudObKuu.jpg](./zLxmkPaZpawyJudObKuu.jpg)
